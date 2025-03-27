@@ -1,102 +1,76 @@
-/* General Styles */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  color: #0e0e0e;
+  text-align: center;
 }
 
-/* Masthead */
-.masthead {
-  background: url("masthead.jpg") center/cover no-repeat;
-  color: white;
-  text-align: center;
-  padding: 100px 0;
+.hero {
   position: relative;
 }
 
-.masthead nav {
-  display: flex;
-  justify-content: space-between;
-  padding: 20px;
+.hero img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
 }
 
-.masthead ul {
-  list-style: none;
-  display: flex;
-  gap: 15px;
-}
-
-.masthead a {
-  text-decoration: none;
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   color: white;
+  font-size: 2rem;
 }
 
-/* Sections */
-section {
-  padding: 50px;
-  text-align: center;
-}
-
-.row-one,
-.row-three {
-  background: #f4f4f4;
-}
-
-.row-two {
-  background: #072d67;
-  color: white;
-}
-
-/* CTA and Hover Boxes */
 .cta-container,
-.hover-box {
+.hover-container {
   display: flex;
   justify-content: center;
   gap: 20px;
-  margin-top: 20px;
 }
 
-.cta-box,
-.hover-box {
-  padding: 20px;
-  border: 2px solid white;
+.cta,
+.hover {
+  position: relative;
+}
+
+.cta img,
+.hover img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.cta-overlay,
+.hover-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.5);
   color: white;
-  width: 200px;
-  text-align: center;
+  padding: 10px;
+  font-size: 1.2rem;
 }
 
-/* Contact Form */
-.contact-form {
-  background: #5e35b1;
-  padding: 40px;
+.contact {
+  background-color: purple;
+  padding: 20px;
 }
 
 form {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  max-width: 400px;
-  margin: auto;
 }
 
-input,
-textarea {
-  width: 100%;
-  padding: 10px;
-  border: none;
-}
-
-button {
-  background: white;
-  padding: 10px;
-  border: none;
-  cursor: pointer;
-}
-
-/* Footer */
 footer {
-  text-align: center;
+  background-color: #f4f4f4;
   padding: 20px;
-  background: white;
+}
+
+footer img {
+  width: 100px;
 }
