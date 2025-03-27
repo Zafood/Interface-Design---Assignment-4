@@ -58,13 +58,12 @@ body {
 
 /* Row Two */
 .row-two {
-  background: url("../5.jpg") center/cover no-repeat;
   padding: 100px 20px;
 }
 
 /* Row Three */
 .row-three {
-  background: url("../6.jpg") center/cover no-repeat;
+  background: url("../5.jpg") center/cover no-repeat;
   padding: 100px 20px;
 }
 
