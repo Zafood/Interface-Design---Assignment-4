@@ -4,15 +4,16 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
-  color: white;
-  background: #072d67;
+  color: #0e0e0e;
+  background: #f4f4f4;
 }
 
 /* Hero Section */
 .hero {
-  background: url("4.jpg") center/cover no-repeat;
+  background: url("hero.jpg") center/cover no-repeat;
   height: 500px;
   position: relative;
+  color: white;
 }
 
 .overlay {
@@ -20,9 +21,22 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
   font-size: 2.5rem;
-  text-align: center;
+}
+
+.header-logo {
+  width: 100px;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  margin: 0 10px;
 }
 
 .arrow {
@@ -38,8 +52,7 @@ body {
 }
 
 @keyframes bounce {
-  0%,
-  100% {
+  0%, 100% {
     transform: translateY(0) rotate(-45deg);
   }
   50% {
@@ -67,16 +80,17 @@ body {
   font-size: 1.5rem;
   background-size: cover;
   background-position: center;
-  position: relative;
+  color: white;
+  border: 2px solid white;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .cta-one {
-  background-image: url("10.jpg");
+  background-image: url("cta1.jpg");
 }
 
 .cta-two {
-  background-image: url("7.jpg");
+  background-image: url("cta2.jpg");
 }
 
 .cta:hover {
@@ -88,11 +102,12 @@ body {
 .row-two {
   background-color: #072d67;
   padding: 100px 20px;
+  color: white;
 }
 
 /* Row Three */
 .row-three {
-  background: url("5.jpg") center/cover no-repeat;
+  background: url("row3.jpg") center/cover no-repeat;
   padding: 100px 20px;
 }
 
@@ -111,14 +126,17 @@ body {
   font-size: 1.5rem;
   background-size: cover;
   background-position: center;
-  position: relative;
+  color: white;
+  border: 2px solid white;
   transition: transform 0.3s ease, filter 0.3s ease;
 }
 
 .hover-one {
+  background-image: url("hover1.jpg");
 }
 
 .hover-two {
+  background-image: url("hover2.jpg");
 }
 
 .hover:hover {
@@ -130,11 +148,12 @@ body {
 .contact {
   background: #5e35b1;
   padding: 40px;
+  color: white;
 }
 
 form {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   gap: 15px;
   max-width: 500px;
   margin: auto;
@@ -164,7 +183,8 @@ button:hover {
 /* Footer */
 footer {
   padding: 50px;
-  background: #0e0e0e;
+  background: #f4f4f4;
+  color: #0e0e0e;
 }
 
 .footer-logo {
@@ -173,3 +193,4 @@ footer {
   height: 100px;
   margin: auto;
 }
+
