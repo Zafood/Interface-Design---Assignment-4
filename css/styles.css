@@ -9,7 +9,7 @@ body {
 
 /* Hero Section */
 .hero {
-  background: url("../1.jpg") center/cover no-repeat;
+  background: url("../4.jpg") center/cover no-repeat;
   height: 400px;
   position: relative;
 }
@@ -26,7 +26,7 @@ body {
 
 /* Row One */
 .row-one {
-  background: url("../2.jpg") center/cover no-repeat;
+  background: url("../.jpg") center/cover no-repeat;
   padding: 100px 20px;
 }
 
@@ -49,11 +49,11 @@ body {
 }
 
 .cta-one {
-  background-image: url("../3.jpg");
+  background-image: url("../10.jpg");
 }
 
 .cta-two {
-  background-image: url("../4.jpg");
+  background-image: url("../7.jpg");
 }
 
 /* Row Two */
@@ -107,12 +107,11 @@ form {
 }
 
 footer {
-  background: url("../9.jpg") center/cover no-repeat;
   padding: 50px;
 }
 
 .footer-logo {
-  background: url("../10.jpg") center/cover no-repeat;
+  background: url("../logo.png") center/cover no-repeat;
   width: 100px;
   height: 100px;
   margin: auto;
