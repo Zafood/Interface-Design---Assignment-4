@@ -10,7 +10,7 @@ body {
 
 /* Hero Section */
 .hero {
-  background: url("hero.jpg") center/cover no-repeat;
+  background: url("4.jpg") center/cover no-repeat;
   height: 500px;
   position: relative;
   color: white;
@@ -87,11 +87,11 @@ nav a {
 }
 
 .cta-one {
-  background-image: url("cta1.jpg");
+  background-image: url("10.jpg");
 }
 
 .cta-two {
-  background-image: url("cta2.jpg");
+  background-image: url("7.jpg");
 }
 
 .cta:hover {
@@ -108,7 +108,7 @@ nav a {
 
 /* Row Three */
 .row-three {
-  background: url("row3.jpg") center/cover no-repeat;
+  background: url("5.jpg") center/cover no-repeat;
   padding: 100px 20px;
 }
 
@@ -133,11 +133,9 @@ nav a {
 }
 
 .hover-one {
-  background-image: url("hover1.jpg");
 }
 
 .hover-two {
-  background-image: url("hover2.jpg");
 }
 
 .hover:hover {
