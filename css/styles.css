@@ -9,7 +9,7 @@ body {
 
 /* Hero Section */
 .hero {
-  background: url("1.jpg") center/cover no-repeat;
+  background: url("../1.jpg") center/cover no-repeat;
   height: 400px;
   position: relative;
 }
@@ -26,7 +26,7 @@ body {
 
 /* Row One */
 .row-one {
-  background: url("2.jpg") center/cover no-repeat;
+  background: url("../2.jpg") center/cover no-repeat;
   padding: 100px 20px;
 }
 
@@ -49,22 +49,22 @@ body {
 }
 
 .cta-one {
-  background-image: url("3.jpg");
+  background-image: url("../3.jpg");
 }
 
 .cta-two {
-  background-image: url("4.jpg");
+  background-image: url("../4.jpg");
 }
 
 /* Row Two */
 .row-two {
-  background: url("5.jpg") center/cover no-repeat;
+  background: url("../5.jpg") center/cover no-repeat;
   padding: 100px 20px;
 }
 
 /* Row Three */
 .row-three {
-  background: url("6.jpg") center/cover no-repeat;
+  background: url("../6.jpg") center/cover no-repeat;
   padding: 100px 20px;
 }
 
@@ -87,11 +87,11 @@ body {
 }
 
 .hover-one {
-  background-image: url("7.jpg");
+  background-image: url("../7.jpg");
 }
 
 .hover-two {
-  background-image: url("8.jpg");
+  background-image: url("../8.jpg");
 }
 
 /* Contact Section */
@@ -107,12 +107,12 @@ form {
 }
 
 footer {
-  background: url("9.jpg") center/cover no-repeat;
+  background: url("../9.jpg") center/cover no-repeat;
   padding: 50px;
 }
 
 .footer-logo {
-  background: url("10.jpg") center/cover no-repeat;
+  background: url("../10.jpg") center/cover no-repeat;
   width: 100px;
   height: 100px;
   margin: auto;
