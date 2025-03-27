@@ -38,7 +38,8 @@ body {
 }
 
 @keyframes bounce {
-  0%, 100% {
+  0%,
+  100% {
     transform: translateY(0) rotate(-45deg);
   }
   50% {
@@ -142,7 +143,8 @@ form {
   margin: auto;
 }
 
-input, textarea {
+input,
+textarea {
   width: 100%;
   padding: 10px;
   border: none;
