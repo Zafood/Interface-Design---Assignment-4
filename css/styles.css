@@ -5,12 +5,12 @@ body {
   padding: 0;
   text-align: center;
   color: white;
-  background-color: #072d67;
+  background: #072d67;
 }
 
 /* Hero Section */
 .hero {
-  background: url("1.jpg") center/cover no-repeat;
+  background: url("4.jpg") center/cover no-repeat;
   height: 500px;
   position: relative;
 }
@@ -49,7 +49,6 @@ body {
 
 /* Row One */
 .row-one {
-  background: url("2.jpg") center/cover no-repeat;
   padding: 100px 20px;
 }
 
@@ -73,11 +72,11 @@ body {
 }
 
 .cta-one {
-  background-image: url("3.jpg");
+  background-image: url("10.jpg");
 }
 
 .cta-two {
-  background-image: url("4.jpg");
+  background-image: url("7.jpg");
 }
 
 .cta:hover {
@@ -117,11 +116,9 @@ body {
 }
 
 .hover-one {
-  background-image: url("6.jpg");
 }
 
 .hover-two {
-  background-image: url("7.jpg");
 }
 
 .hover:hover {
