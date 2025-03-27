@@ -1,58 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment 4</title>
-    <link rel="stylesheet" href="css/styles.css" />
-  </head>
-  <body>
-    <header class="hero">
-      <div class="overlay">
-        <img src="logo.png" class="header-logo" />
-        <nav>
-          <a href="#">Home</a> | <a href="#">About</a> | <a href="#">Contact</a>
-        </nav>
-        <h1>Assignment 4</h1>
-        <div class="arrow"></div>
-      </div>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="hero">
+            <img src="logo.png" class="logo" alt="Logo">
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <h1>Assignment 4</h1>
+        </div>
     </header>
 
-    <section class="row-one">
-      <h2>Row One Title</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
-      <div class="cta-container">
-        <div class="cta cta-one">CTA One</div>
-        <div class="cta cta-two">CTA Two</div>
-      </div>
+    <!-- Row One -->
+    <section class="row row-one">
+        <h2>Row One Title</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+        <div class="cta-container">
+            <div class="cta" style="background-image: url('4.jpg');">CTA One</div>
+            <div class="cta" style="background-image: url('5.jpg');">CTA Two</div>
+        </div>
     </section>
 
-    <section class="row-two">
-      <h2>Row Two</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+    <!-- Row Two -->
+    <section class="row row-two">
+        <h2>Row Two</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
     </section>
 
-    <section class="row-three">
-      <h2>Row Three</h2>
-      <div class="hover-container">
-        <div class="hover hover-one">Hover One</div>
-        <div class="hover hover-two">Hover Two</div>
-      </div>
+    <!-- Row Three -->
+    <section class="row row-three">
+        <h2>Row Three</h2>
+        <div class="hover-container">
+            <div class="hover" style="background-image: url('7.jpg');">Hover One</div>
+            <div class="hover" style="background-image: url('10.jpg');">Hover Two</div>
+        </div>
     </section>
 
+    <!-- Contact Form -->
     <section class="contact">
-      <form>
-        <input type="text" placeholder="First Name" />
-        <input type="text" placeholder="Last Name" />
-        <input type="email" placeholder="Email" />
-        <textarea placeholder="Message"></textarea>
-        <button type="submit">Submit</button>
-      </form>
+        <form>
+            <input type="text" name="first-name" placeholder="First Name">
+            <input type="text" name="last-name" placeholder="Last Name">
+            <input type="email" name="email" placeholder="Email">
+            <textarea name="message" placeholder="Message"></textarea>
+            <button type="submit">Submit</button>
+        </form>
     </section>
 
+    <!-- Footer -->
     <footer>
-      <img src="logo.png" class="footer-logo" />
-      <p>Assignment By: Your Name Here</p>
+        <img src="logo.png" alt="Logo">
+        <p>Assignment By: Your Name Here</p>
     </footer>
-  </body>
+
+</body>
 </html>
