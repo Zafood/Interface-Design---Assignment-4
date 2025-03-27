@@ -216,8 +216,9 @@ button:hover {
 }
 
 .contact input.name {
+  display: flex;
   flex: 1;
-  min-width: 45%; /* Ensures responsiveness */
+  min-width: 4%;
 }
 
 /* Footer */
@@ -232,4 +233,44 @@ footer {
   width: 100px;
   height: 100px;
   margin: auto;
+}
+
+@media screen and (max-width: 768px) {
+  /* Adjust CTA images */
+  .cta-container {
+    flex-direction: column;
+  }
+
+  .cta {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Remove extra space on CTA images */
+  .cta-one p,
+  .cta-two p {
+    padding: 10%;
+  }
+
+  /* Align name inputs side by side */
+  .contact form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact input.name {
+    width: 100%;
+    display: inline-block;
+  }
+
+  /* Ensure hover buttons stack properly */
+  .hover-container {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .hover {
+    width: 80%;
+    margin: auto;
+  }
 }
